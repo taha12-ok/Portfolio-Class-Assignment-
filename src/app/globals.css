@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: #1e1b4b;
+  font-weight:700;
+  padding: 20px;
+}
+
+.header-button{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.header-button li{
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.footer{  
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: aliceblue;
+  background-color:#1e1b4b;
+}
+
